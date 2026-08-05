@@ -1,0 +1,66 @@
+cv:
+  name: Veer Shah
+  label: Information Technology Student & Software Developer
+  email: veershah2706@gmail.com
+  location: Ahmedabad, India
+  summary: High-performing Information Technology undergraduate (CGPA 9.325) with strong expertise in Data Structures, Algorithms, C/C++, Java, Python, and SQL database management systems. Seeking developer and software engineering internships.
+
+  address:
+    city: Ahmedabad
+    region: Gujarat
+    countryCode: IN
+
+  sections:
+    Education:
+      - institution: LJ University
+        location: Ahmedabad, Gujarat, India
+        area: Information Technology
+        studyType: Bachelor's in Information Technology (BSc. IT)
+        start_date: 2024
+        end_date: 2027
+        score: "Cumulative CGPA (2 Years): 9.325 / 10.0"
+        highlights:
+          - "Year 1 Subjects: Fundamentals of Programming (C & Advanced C), Web Development, DBMS, Basic Mathematics, Fundamentals of Computing."
+          - "Year 2 Subjects: Data Structures, Object Oriented Programming in C++, Operating Systems & Virtualization, Java, PHP, R for Business Analysis, Linux, Discrete Math."
+
+    Projects:
+      - title: Bakery Inventory & Order Management System
+        publisher: C Language Project
+        date: 2025
+        summary: Designed and implemented a complete text-based inventory management system in C with file-based persistence.
+        highlights:
+          - "Modular struct models for managing bakery inventory, customer data, and orders."
+          - "Implemented features including login authentication, date handling, dynamic order entry, structured formatting, and search functionalities."
+
+      - title: Terminal Tic Tac Toe Game
+        publisher: C Language Project
+        date: 2025
+        summary: Developed an interactive terminal-based two-player Tic Tac Toe game in C.
+        highlights:
+          - "Engineered 2D array matrix representation with ASCII rendering."
+          - "Implemented win/draw condition evaluation algorithms and input validation logic."
+
+    Certifications:
+      - title: C for Everyone - Programming Fundamentals
+        issuer: University of California, Davis (Coursera)
+        year: 2025
+      - title: Oracle SQL Basics
+        issuer: LearnQuest (Coursera)
+        year: 2025
+      - title: Introduction to Generative AI
+        issuer: Google Cloud
+        year: 2025
+      - title: Cybersecurity with Python
+        issuer: Google
+        year: 2025
+
+    Skills:
+      - name: Software Development
+        keywords: ["C", "C++", "Python", "JavaScript", "Java", "PHP", "PyTorch", "Git", "GitHub"]
+      - name: Core Concepts
+        keywords: ["Data Structures & Algorithms", "Operating Systems", "Database Systems (SQL)", "Object Oriented Programming (OOP)", "Virtualization", "Linux"]
+
+    Hackathons:
+      - title: Hackovate LJ 2025
+        year: 2025
+        summary: Participated in Hackovate LJ 2025, solving real-world coding challenges in a collaborative environment.
