@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: Resume
+title: cv
 nav: true
-nav_order: 3
+nav_order: 4
 cv_pdf: /assets/pdf/Veer_CV.pdf
 cv_format: jsonresume
 description: Interactive resume featuring education, skills, certifications, and project experience.

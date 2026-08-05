@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
-permalink: /about/
-subtitle: Information Technology Undergraduate | LJ University (CGPA: 9.325)
+title: about
+permalink: /
+subtitle: Software Engineering | Data Structures & Algorithms | Web Development | Machine Learning
 nav: true
 nav_order: 1
 
@@ -11,28 +11,21 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Ahmedabad, India</p>
+    <p><b>Ahmedabad, India</b></p>
     <p>veershah2706@gmail.com</p>
 
 selected_papers: false
 social: true
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: false
 ---
 
-Hello! I'm **Veer Shah**, an Information Technology undergraduate student at **LJ University**, Ahmedabad (Batch 2024 - 2027) with a cumulative CGPA of **9.325**.
+I'm **Veer Shah**, a passionate software developer based in **Ahmedabad, India**, driven by a deep-rooted enthusiasm for building efficient software applications and algorithm optimization. I specialize in **Data Structures & Algorithms (DSA)**, **Object-Oriented Programming**, and **Software Engineering**, dedicated to writing clean, maintainable, and high-performance code.
 
-I have a strong foundation in core computer science principles including **Data Structures & Algorithms, Operating Systems, Database Management Systems (SQL), and Object-Oriented Programming (C/C++, Java, Python)**.
+Having completed my 2nd year in **Bachelor of Science in Information Technology (BSc. IT)** from **LJ University** with an exceptional **CGPA of 9.325**, I've built a strong foundation in C, C++, Python, JavaScript, Java, PHP, and SQL database management systems.
 
-### Core Focus & Technical Interests
-- **Software Development**: Building robust CLI tools, system software, and web applications in C, C++, Python, and JavaScript.
-- **Machine Learning & AI**: Exploring deep learning models using PyTorch and Generative AI fundamentals.
-- **Problem Solving**: Continuously refining my skills in algorithmic logic, data structures, and competitive problem solving.
-
-Feel free to explore my [Projects](/projects/) or check out my interactive [Resume](/cv/). I am currently seeking software engineering and developer internship opportunities!
+By harnessing core computer science principles and dynamic problem-solving techniques, I actively bridge the gap between academic theory and practical software deployment. This platform serves as a curated collection of my work in software development, data structures, and CLI applications. Feel free to explore my projects, check out my resume, or reach out to discuss internship and software engineering opportunities!

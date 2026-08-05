@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: Software engineering projects, systems programming, and algorithms.
 nav: true
