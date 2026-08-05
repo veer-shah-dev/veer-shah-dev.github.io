@@ -1,0 +1,104 @@
+{
+  "basics": {
+    "name": "Veer Shah",
+    "label": "Information Technology Student & Software Developer",
+    "image": "",
+    "email": "veershah2706@gmail.com",
+    "phone": "+91 98245 4667",
+    "url": "https://veer-shah-dev.github.io",
+    "summary": "High-performing Information Technology undergraduate (CGPA 9.325) with strong expertise in Data Structures, Algorithms, C/C++, Java, Python, and SQL database management systems. Seeking developer and software engineering internships.",
+    "location": {
+      "city": "Ahmedabad",
+      "region": "Gujarat",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "veer-shah-dev",
+        "url": "https://github.com/veer-shah-dev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "veer-shah-808293344",
+        "url": "https://www.linkedin.com/in/veer-shah-808293344/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "LJ University",
+      "url": "",
+      "area": "Information Technology",
+      "studyType": "Bachelor's in Information Technology (BSc. IT)",
+      "startDate": "2024",
+      "endDate": "2027",
+      "score": "Cumulative CGPA (2 Years): 9.325 / 10.0",
+      "courses": [
+        "Fundamentals of Programming (C & Advanced C)",
+        "Data Structures & Algorithms",
+        "Object Oriented Programming in C++",
+        "Database Management Systems (DBMS/SQL)",
+        "Operating Systems & Virtualization",
+        "Java",
+        "PHP",
+        "Linux",
+        "Discrete Mathematics"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Development",
+      "level": "Intermediate",
+      "keywords": ["C", "C++", "Python", "JavaScript", "Java", "PHP", "PyTorch", "Git", "GitHub"]
+    },
+    {
+      "name": "Core Concepts",
+      "level": "Advanced",
+      "keywords": ["Data Structures & Algorithms", "Operating Systems", "Database Systems (SQL)", "OOP", "Virtualization", "Linux"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bakery Inventory & Order Management System",
+      "description": "Modular C-based management system handling bakery inventory, customer tracking, order entry, and file-based persistence.",
+      "highlights": [
+        "Designed C struct models for managing bakery inventory, customer data, and orders.",
+        "Implemented login authentication, dynamic order entry, structured formatting, and search functionalities."
+      ],
+      "keywords": ["C", "File I/O", "CLI", "Data Structures"]
+    },
+    {
+      "name": "Terminal Tic Tac Toe Game",
+      "description": "Interactive two-player command-line game with ASCII rendering and matrix win-checking algorithms in C.",
+      "highlights": [
+        "Engineered 2D character matrix array representation.",
+        "Implemented win/draw evaluation algorithms and input validation logic."
+      ],
+      "keywords": ["C", "Algorithms", "2D Arrays", "CLI"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "C for Everyone - Programming Fundamentals",
+      "issuer": "University of California, Davis (Coursera)",
+      "date": "2025"
+    },
+    {
+      "name": "Oracle SQL Basics",
+      "issuer": "LearnQuest (Coursera)",
+      "date": "2025"
+    },
+    {
+      "name": "Introduction to Generative AI",
+      "issuer": "Google Cloud",
+      "date": "2025"
+    },
+    {
+      "name": "Cybersecurity with Python",
+      "issuer": "Google",
+      "date": "2025"
+    }
+  ]
+}
