@@ -1,66 +1,84 @@
-cv:
-  name: Veer Shah
-  label: Information Technology Student & Software Developer
-  email: veershah2706@gmail.com
-  location: Ahmedabad, India
-  summary: High-performing Information Technology undergraduate (CGPA 9.325) with strong expertise in Data Structures, Algorithms, C/C++, Java, Python, and SQL database management systems. Seeking developer and software engineering internships.
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Veer Shah
+    - name: Degree
+      value: Bachelor's in Information Technology (BSc. IT)
+    - name: Institution
+      value: LJ University, Ahmedabad
+    - name: Overall CGPA
+      value: 9.325 / 10.0 (2 Years)
+    - name: Location
+      value: Ahmedabad, Gujarat, India
+    - name: Email
+      value: veershah2706@gmail.com
 
-  address:
-    city: Ahmedabad
-    region: Gujarat
-    countryCode: IN
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor's in Information Technology (BSc. IT)
+      institution: LJ University, Ahmedabad, India
+      year: 2024 - 2027
+      description:
+        - "Overall CGPA (2 Years): 9.325 / 10.0"
+        - "Year 1 Subjects: Fundamentals of Programming (C & Advanced C), Web Development (WDT), Database Management System (DBMS), Basic Mathematics (BM), Fundamentals of Computing (FCO)."
+        - "Year 2 Subjects: Data Structures (DS), Object Oriented Programming using C++ (OOCP), Operating Systems & Virtualization (OS), Java, PHP, Business Analysis using R (BS), Linux, Discrete Mathematics (DMCS)."
 
-  sections:
-    Education:
-      - institution: LJ University
-        location: Ahmedabad, Gujarat, India
-        area: Information Technology
-        studyType: Bachelor's in Information Technology (BSc. IT)
-        start_date: 2024
-        end_date: 2027
-        score: "Cumulative CGPA (2 Years): 9.325 / 10.0"
-        highlights:
-          - "Year 1 Subjects: Fundamentals of Programming (C & Advanced C), Web Development, DBMS, Basic Mathematics, Fundamentals of Computing."
-          - "Year 2 Subjects: Data Structures, Object Oriented Programming in C++, Operating Systems & Virtualization, Java, PHP, R for Business Analysis, Linux, Discrete Math."
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Software Development
+      items:
+        - "Languages: C, C++, Python, JavaScript, Java, PHP, R, SQL"
+        - "Machine Learning: PyTorch"
+        - "Developer Tools & Version Control: Git, GitHub, Linux environment"
+    - title: Core Computer Science Concepts
+      items:
+        - "Data Structures & Algorithms (arrays, linked lists, trees, graphs, sorting, searching, DP)"
+        - "Operating Systems & Virtualization"
+        - "Database Management Systems (Relational SQL)"
+        - "Object-Oriented Programming (OOP)"
 
-    Projects:
-      - title: Bakery Inventory & Order Management System
-        publisher: C Language Project
-        date: 2025
-        summary: Designed and implemented a complete text-based inventory management system in C with file-based persistence.
-        highlights:
-          - "Modular struct models for managing bakery inventory, customer data, and orders."
-          - "Implemented features including login authentication, date handling, dynamic order entry, structured formatting, and search functionalities."
+- title: Featured Projects
+  type: time_table
+  contents:
+    - title: Bakery Inventory & Order Management System
+      institution: C Language Project
+      year: 2025
+      description:
+        - "Designed and implemented a complete text-based management system in C to handle bakery inventory, customer data, and order processing."
+        - "Integrated modular struct data models with file-based persistence for storing products, customers, and orders."
+        - "Included features such as login authentication, date handling, dynamic order entry, structured display formatting, and search functionalities."
+    - title: Terminal Tic Tac Toe Game
+      institution: C Language Project
+      year: 2025
+      description:
+        - "Developed an interactive terminal-based two-player Tic Tac Toe game using C."
+        - "Engineered 2D character matrix array representation with ASCII rendering."
+        - "Implemented win/draw condition evaluation algorithms and input sanitization logic."
 
-      - title: Terminal Tic Tac Toe Game
-        publisher: C Language Project
-        date: 2025
-        summary: Developed an interactive terminal-based two-player Tic Tac Toe game in C.
-        highlights:
-          - "Engineered 2D array matrix representation with ASCII rendering."
-          - "Implemented win/draw condition evaluation algorithms and input validation logic."
+- title: Certifications
+  type: time_table
+  contents:
+    - title: C for Everyone - Programming Fundamentals
+      institution: University of California, Davis (Coursera)
+      year: 2025
+    - title: Oracle SQL Basics
+      institution: LearnQuest (Coursera)
+      year: 2025
+    - title: Introduction to Generative AI
+      institution: Google Cloud
+      year: 2025
+    - title: Cybersecurity with Python
+      institution: Google
+      year: 2025
 
-    Certifications:
-      - title: C for Everyone - Programming Fundamentals
-        issuer: University of California, Davis (Coursera)
-        year: 2025
-      - title: Oracle SQL Basics
-        issuer: LearnQuest (Coursera)
-        year: 2025
-      - title: Introduction to Generative AI
-        issuer: Google Cloud
-        year: 2025
-      - title: Cybersecurity with Python
-        issuer: Google
-        year: 2025
-
-    Skills:
-      - name: Software Development
-        keywords: ["C", "C++", "Python", "JavaScript", "Java", "PHP", "PyTorch", "Git", "GitHub"]
-      - name: Core Concepts
-        keywords: ["Data Structures & Algorithms", "Operating Systems", "Database Systems (SQL)", "Object Oriented Programming (OOP)", "Virtualization", "Linux"]
-
-    Hackathons:
-      - title: Hackovate LJ 2025
-        year: 2025
-        summary: Participated in Hackovate LJ 2025, solving real-world coding challenges in a collaborative environment.
+- title: Hackathons & Competitions
+  type: time_table
+  contents:
+    - title: Hackovate LJ 2025
+      institution: LJ University
+      year: 2025
+      description:
+        - "Participated in Hackovate LJ 2025, solving real-world programming challenges."

@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Software Engineering | Data Structures & Algorithms | Web Development | Machine Learning
-nav: true
+nav: false
 nav_order: 1
 
 profile:
