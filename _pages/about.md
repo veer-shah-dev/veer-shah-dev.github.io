@@ -1,8 +1,10 @@
 ---
 layout: about
-title: About Me
+title: About
 permalink: /
 subtitle: Information Technology Undergraduate | LJ University (CGPA: 9.325)
+nav: true
+nav_order: 1
 
 profile:
   align: right
