@@ -7,8 +7,24 @@ nav: true
 nav_order: 3
 ---
 
+<style>
+  /* Ensure theme switching for repo stats cards */
+  .repo-img-light { display: inline-block !important; }
+  .repo-img-dark { display: none !important; }
+
+  html[data-theme='dark'] .repo-img-light,
+  body[data-theme='dark'] .repo-img-light {
+    display: none !important;
+  }
+
+  html[data-theme='dark'] .repo-img-dark,
+  body[data-theme='dark'] .repo-img-dark {
+    display: inline-block !important;
+  }
+</style>
+
 {% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center mb-4">
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center mb-4 text-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
