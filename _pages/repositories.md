@@ -7,22 +7,19 @@ nav: true
 nav_order: 3
 ---
 
-<div class="repositories">
-  <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
-    <div class="col">
-      <img class="img-fluid rounded z-depth-1 w-100" src="https://github-readme-stats.vercel.app/api?username=veer-shah-dev&show_icons=true&theme=default" alt="Veer Shah GitHub Stats" />
-    </div>
-    <div class="col">
-      <img class="img-fluid rounded z-depth-1 w-100" src="https://github-readme-stats.vercel.app/api/top-langs/?username=veer-shah-dev&layout=compact&theme=default" alt="Top Languages" />
-    </div>
-  </div>
+{% if site.data.repositories.github_users %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center mb-4">
+  {% for user in site.data.repositories.github_users %}
+    {% include repository/repo_user.liquid username=user %}
+  {% endfor %}
+</div>
+{% endif %}
 
-  <h3 class="font-weight-bold mb-3">Public GitHub Repositories</h3>
-  <div id="github-repos-container" class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col-12 text-center py-4">
-      <div class="spinner-border text-primary" role="status">
-        <span class="sr-only">Loading repositories...</span>
-      </div>
+<h3 class="font-weight-bold mb-3">Public GitHub Repositories</h3>
+<div id="github-repos-container" class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col-12 text-center py-4">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading repositories...</span>
     </div>
   </div>
 </div>
@@ -40,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
       
-      // Filter out forks if desired, or keep all public non-fork repos
       const publicRepos = repos.filter(repo => !repo.fork);
 
       if (publicRepos.length === 0) {
