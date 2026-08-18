@@ -3,7 +3,7 @@ layout: page
 title: Bakery Inventory & Order Management System
 description: Modular C-based management system with file-based persistence, customer tracking, and order entry.
 img: assets/img/7.jpg
-importance: 1
+importance: 2
 category: Software Engineering
 giscus_comments: false
 ---

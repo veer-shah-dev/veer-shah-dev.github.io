@@ -5,10 +5,12 @@
       value: Veer Shah
     - name: Degree
       value: Bachelor's in Information Technology (BSc. IT)
+    - name: University Rank & Honors
+      value: 🏆 1st Rank (Sem 3 & 4) | 🥈 2nd Rank (Sem 1 & 2) across University
     - name: Institution
       value: LJ University, Ahmedabad
     - name: Overall CGPA
-      value: 9.325 / 10.0 (2 Years)
+      value: 9.32 / 10.0
     - name: Location
       value: Ahmedabad, Gujarat, India
     - name: Email
@@ -21,42 +23,48 @@
       institution: LJ University, Ahmedabad, India
       year: 2024 - 2027
       description:
-        - "Overall CGPA (2 Years): 9.325 / 10.0"
-        - "Year 1 Subjects: Fundamentals of Programming (C & Advanced C), Web Development (WDT), Database Management System (DBMS), Basic Mathematics (BM), Fundamentals of Computing (FCO)."
-        - "Year 2 Subjects: Data Structures (DS), Object Oriented Programming using C++ (OOCP), Operating Systems & Virtualization (OS), Java, PHP, Business Analysis using R (BS), Linux, Discrete Mathematics (DMCS)."
+        - "Overall CGPA: 9.32 / 10.0"
+        - "University Rank & Honors: Secured 1st Rank across the university in Semester 3 & 4, and 2nd Rank in Semester 1 & 2."
+        - "Specialization: Full-stack web development (PHP, Laravel), Artificial Intelligence / Computer Vision (YOLOv8, MediaPipe, OpenCV), Python, and Database Systems."
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Software Development
+    - title: Programming Languages
       items:
-        - "Languages: C, C++, Python, JavaScript, Java, PHP, R, SQL"
-        - "Machine Learning: PyTorch"
-        - "Developer Tools & Version Control: Git, GitHub, Linux environment"
-    - title: Core Computer Science Concepts
+        - "PHP, Python, C++, C, JavaScript, SQL, PL/SQL"
+    - title: Frameworks & AI / Machine Learning
       items:
-        - "Data Structures & Algorithms (arrays, linked lists, trees, graphs, sorting, searching, DP)"
-        - "Operating Systems & Virtualization"
-        - "Database Management Systems (Relational SQL)"
-        - "Object-Oriented Programming (OOP)"
+        - "Laravel 10, Flask, PyTorch, YOLOv8, MediaPipe, OpenCV"
+    - title: Databases & Developer Tools
+      items:
+        - "MySQL, MongoDB, SQL, XAMPP, Git, GitHub, Linux"
+    - title: Core CS Concepts
+      items:
+        - "Data Structures & Algorithms, Database Management Systems (DBMS), Object-Oriented Programming (OOP), Operating Systems, Artificial Intelligence & Machine Learning"
 
 - title: Featured Projects
   type: time_table
   contents:
+    - title: Sentinel AI (AI & Computer Vision Security System)
+      institution: Python, Flask, YOLOv8, MediaPipe, MySQL, Twilio
+      year: 2026
+      description:
+        - "Developed a real-time computer-vision security system for detecting weapons, suspicious behavior, and robbery gestures using YOLOv8 and MediaPipe."
+        - "Built a Flask-based role-based dashboard with MySQL for managing civilian, law-enforcement, and incident data."
+        - "Implemented automated threat-location routing and multi-channel alerting with evidence capture and WhatsApp notifications using Twilio."
     - title: Bakery Inventory & Order Management System
       institution: C Language Project
       year: 2025
       description:
-        - "Designed and implemented a complete text-based management system in C to handle bakery inventory, customer data, and order processing."
-        - "Integrated modular struct data models with file-based persistence for storing products, customers, and orders."
-        - "Included features such as login authentication, date handling, dynamic order entry, structured display formatting, and search functionalities."
-    - title: Terminal Tic Tac Toe Game
+        - "Engineered a command-line management system using C to efficiently handle bakery inventory, customer records, and dynamic order processing."
+        - "Implemented secure login authentication, file-based data persistence, and structured search functionalities to simulate real-world business operations."
+    - title: Tic Tac Toe Game
       institution: C Language Project
       year: 2025
       description:
-        - "Developed an interactive terminal-based two-player Tic Tac Toe game using C."
-        - "Engineered 2D character matrix array representation with ASCII rendering."
-        - "Implemented win/draw condition evaluation algorithms and input sanitization logic."
+        - "Developed a terminal-based, two-player game emphasizing fundamental programming concepts including control flow, dynamic input validation, and 2D arrays."
+        - "Designed a clean ASCII-based interface with robust logic to accurately detect win conditions, draws, and invalid moves."
 
 - title: Certifications
   type: time_table
@@ -74,11 +82,16 @@
       institution: Google
       year: 2025
 
-- title: Hackathons & Competitions
+- title: Hackathons & Achievements
   type: time_table
   contents:
+    - title: Tic Tech Toe 2026
+      institution: LJ University
+      year: 2026
+      description:
+        - "Participated in Tic Tech Toe 2026 hackathon and developed a project-based technology solution."
     - title: Hackovate LJ 2025
       institution: LJ University
       year: 2025
       description:
-        - "Participated in Hackovate LJ 2025, solving real-world programming challenges."
+        - "Participated in Hackovate LJ 2025 hackathon and worked on a technology-based solution."

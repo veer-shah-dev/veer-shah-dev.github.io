@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Veer Shah",
-    "label": "Software Developer & Information Technology Student",
+    "label": "Software Developer & IT Student (1st Rank in Sem 3 & 4 | CGPA 9.32/10)",
     "image": "",
     "email": "veershah2706@gmail.com",
-    "phone": "+91 98245 4667",
-    "summary": "High-performing Information Technology undergraduate (CGPA 9.325) with strong expertise in Data Structures, Algorithms, C/C++, Java, Python, and SQL database management systems. Seeking developer and software engineering internships.",
+    "phone": "+91 98245 46667",
+    "summary": "B.Sc. Information Technology student with a strong academic record (1st Rank in Sem 3 & 4 across university, CGPA 9.32/10) and hands-on experience developing full-stack web applications and AI/computer-vision technologies. Specialized in PHP, Laravel, Python, YOLOv8, MediaPipe, OpenCV, and multi-agent systems.",
     "location": {
       "city": "Ahmedabad",
       "region": "Gujarat",
@@ -33,31 +33,49 @@
       "studyType": "Bachelor's in Information Technology (BSc. IT)",
       "startDate": "2024-06-01",
       "endDate": "2027-05-31",
-      "score": "Overall CGPA (2 Years): 9.325 / 10.0",
-      "summary": "Year 1 & Year 2 Coursework: Fundamentals of Programming (C & Advanced C), Data Structures & Algorithms, Object Oriented Programming in C++, DBMS & SQL, Operating Systems & Virtualization, Java, PHP, Linux, Discrete Math.",
+      "score": "Overall CGPA: 9.32 / 10.0 (1st Rank Sem 3 & 4 | 2nd Rank Sem 1 & 2)",
+      "summary": "Honors & Achievements: Secured 1st Rank (Sem 3 & 4) and 2nd Rank (Sem 1 & 2) across the university. Specialized in full-stack web applications (PHP, Laravel 10, Flask) and AI/Computer-Vision technologies (YOLOv8, MediaPipe, OpenCV, PyTorch).",
       "courses": [
         "Data Structures & Algorithms",
+        "Artificial Intelligence & Machine Learning",
         "Object Oriented Programming (C++)",
         "Database Management Systems (SQL)",
         "Operating Systems & Virtualization",
+        "Web Development (PHP / Laravel 10 / Flask)",
         "Fundamentals of Programming (C)",
-        "Java",
-        "PHP",
         "Linux"
       ]
     }
   ],
   "awards": [
     {
+      "title": "University Rank 1 (Sem 3 & 4)",
+      "date": "2025-06-01",
+      "awarder": "LJ University",
+      "summary": "Secured 1st Rank across the entire university in Semester 3 & 4."
+    },
+    {
+      "title": "University Rank 2 (Sem 1 & 2)",
+      "date": "2025-01-01",
+      "awarder": "LJ University",
+      "summary": "Secured 2nd Rank across the entire university in Semester 1 & 2."
+    },
+    {
+      "title": "Tic Tech Toe 2026",
+      "date": "2026-01-01",
+      "awarder": "LJ University",
+      "summary": "Participated in Tic Tech Toe 2026 hackathon and developed a project-based technology solution."
+    },
+    {
       "title": "Hackovate LJ 2025",
       "date": "2025-01-01",
       "awarder": "LJ University",
-      "summary": "Participated in Hackovate LJ 2025, solving real-world coding and algorithm challenges."
+      "summary": "Participated in Hackovate LJ 2025 hackathon and worked on a technology-based solution."
     }
   ],
   "certificates": [
     {
-      "name": "C for Everyone - Programming Fundamentals",
+      "name": "C for Everyone: Programming Fundamentals",
       "date": "2025-01-01",
       "issuer": "University of California, Davis (Coursera)"
     },
@@ -80,14 +98,24 @@
   "publications": [],
   "skills": [
     {
-      "name": "Programming Languages & Tools",
-      "level": "Intermediate",
-      "keywords": ["C", "C++", "Python", "JavaScript", "Java", "PHP", "R", "SQL", "PyTorch", "Git", "GitHub"]
+      "name": "Languages",
+      "level": "Advanced",
+      "keywords": ["PHP", "Python", "C++", "C", "JavaScript", "SQL", "PL/SQL"]
     },
     {
-      "name": "Core CS Concepts",
+      "name": "Frameworks & AI / Machine Learning",
       "level": "Advanced",
-      "keywords": ["Data Structures & Algorithms", "Operating Systems", "Database Systems (SQL)", "OOP", "Virtualization", "Linux"]
+      "keywords": ["Laravel 10", "Flask", "PyTorch", "YOLOv8", "MediaPipe", "OpenCV"]
+    },
+    {
+      "name": "Databases & Tools",
+      "level": "Intermediate",
+      "keywords": ["MySQL", "MongoDB", "SQL", "XAMPP", "Git", "GitHub", "Linux"]
+    },
+    {
+      "name": "Core Concepts",
+      "level": "Advanced",
+      "keywords": ["Data Structures & Algorithms", "Database Management Systems", "Object-Oriented Programming", "Operating Systems", "Artificial Intelligence & Machine Learning"]
     }
   ],
   "languages": [
@@ -106,31 +134,40 @@
   ],
   "interests": [
     {
-      "name": "Software Engineering",
-      "keywords": ["CLI Applications", "System Programming", "Algorithm Optimization"]
+      "name": "Artificial Intelligence & Computer Vision",
+      "keywords": ["YOLOv8", "MediaPipe", "OpenCV", "Object Detection", "Threat Alerting"]
     },
     {
-      "name": "Artificial Intelligence",
-      "keywords": ["Machine Learning", "PyTorch", "Generative AI"]
+      "name": "Full-Stack Web Development",
+      "keywords": ["PHP", "Laravel 10", "Flask", "MySQL", "REST APIs"]
     }
   ],
   "projects": [
     {
-      "name": "Bakery Inventory & Order Management System",
-      "description": "Designed and implemented a complete text-based management system in C with file-based persistence for inventory, customer tracking, and dynamic order processing.",
+      "name": "Sentinel AI",
+      "description": "Real-time computer-vision security system for detecting weapons, suspicious behavior, and robbery gestures using YOLOv8, MediaPipe, Flask, MySQL, and Twilio WhatsApp alerts.",
       "highlights": [
-        "Modular C struct models for products, customers, and orders.",
-        "File-based persistent storage, login authentication, date handling, and search features."
+        "Developed real-time computer-vision detection for weapons, suspicious behavior, and robbery gestures using YOLOv8 and MediaPipe.",
+        "Built a Flask-based role-based dashboard with MySQL for managing civilian, law-enforcement, and incident data.",
+        "Implemented automated threat-location routing and multi-channel alerting with evidence capture and WhatsApp notifications using Twilio."
+      ],
+      "keywords": ["Python", "Flask", "YOLOv8", "MediaPipe", "MySQL", "Twilio"],
+      "startDate": "2026-01-01"
+    },
+    {
+      "name": "Bakery Inventory & Order Management System",
+      "description": "Engineered a command-line management system using C to efficiently handle bakery inventory, customer records, and dynamic order processing.",
+      "highlights": [
+        "Implemented secure login authentication, file-based data persistence, and structured search functionalities to simulate real-world business operations."
       ],
       "keywords": ["C", "File I/O", "CLI", "Structs"],
       "startDate": "2025-01-01"
     },
     {
-      "name": "Terminal Tic Tac Toe Game",
-      "description": "Interactive two-player command-line Tic-Tac-Toe game in C featuring ASCII rendering and matrix win/draw detection algorithms.",
+      "name": "Tic Tac Toe Game",
+      "description": "Developed a terminal-based, two-player game emphasizing fundamental programming concepts including control flow, dynamic input validation, and 2D arrays.",
       "highlights": [
-        "2D character matrix array representation.",
-        "Turn switching, win/draw condition evaluation, and input sanitization."
+        "Designed a clean ASCII-based interface with robust logic to accurately detect win conditions, draws, and invalid moves."
       ],
       "keywords": ["C", "Algorithms", "2D Arrays", "CLI"],
       "startDate": "2025-01-01"

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineering | Data Structures & Algorithms | Web Development | Machine Learning
+subtitle: Artificial Intelligence | Computer Vision | Full-Stack Web Development | Software Engineering
 nav: false
 nav_order: 1
 
@@ -24,8 +24,10 @@ latest_posts:
   enabled: false
 ---
 
-I'm **Veer Shah**, a passionate software developer based in **Ahmedabad, India**, driven by a deep-rooted enthusiasm for building efficient software applications and algorithm optimization. I specialize in **Data Structures & Algorithms (DSA)**, **Object-Oriented Programming**, and **Software Engineering**, dedicated to writing clean, maintainable, and high-performance code.
+I'm **Veer Shah**, a passionate Information Technology undergraduate student based in **Ahmedabad, India**, driven by a deep-rooted enthusiasm for artificial intelligence, computer vision, and full-stack software development. I specialize in **Python, PHP (Laravel 10), Flask, YOLOv8, MediaPipe, C/C++, and SQL**, dedicated to building practical, high-impact technology solutions.
 
-Having completed my 2nd year in **Bachelor of Science in Information Technology (BSc. IT)** from **LJ University** with an exceptional **CGPA of 9.325**, I've built a strong foundation in C, C++, Python, JavaScript, Java, PHP, and SQL database management systems.
+I am pursuing my **Bachelor of Science in Information Technology (BSc. IT)** at **LJ University**, achieving an overall **CGPA of 9.32/10** and securing **1st Rank (Sem 3 & 4)** and **2nd Rank (Sem 1 & 2)** across the university.
 
-By harnessing core computer science principles and dynamic problem-solving techniques, I actively bridge the gap between academic theory and practical software deployment. This platform serves as a curated collection of my work in software development, data structures, and CLI applications. Feel free to explore my projects, check out my resume, or reach out to discuss internship and software engineering opportunities!
+My recent flagship project is **[Sentinel AI](/projects/)**, a real-time computer-vision security platform leveraging **YOLOv8** and **MediaPipe** for weapon, robbery gesture, and suspicious behavior detection with **Twilio WhatsApp incident alerting** and a **Flask/MySQL dashboard**. 
+
+Feel free to explore my [Projects](/projects/), check out my interactive [CV](/cv/), or reach out to discuss software engineering and AI developer internship opportunities!

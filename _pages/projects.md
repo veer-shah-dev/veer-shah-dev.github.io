@@ -5,7 +5,7 @@ permalink: /projects/
 description: Software engineering projects, systems programming, and algorithms.
 nav: true
 nav_order: 2
-display_categories: [Software Engineering, Games & Algorithms]
+display_categories: [Artificial Intelligence & Computer Vision, Software Engineering, Games & Algorithms]
 horizontal: false
 ---
 
